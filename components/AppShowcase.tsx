@@ -219,15 +219,45 @@ function PhoneFrame({
   priority?: boolean;
 }) {
   return (
-    <div className="relative aspect-[402/850] w-[320px] overflow-hidden rounded-[44px] border border-line bg-bg-0 md:w-[360px]">
-      <Image
-        src={image}
-        alt={title}
-        fill
-        sizes="(max-width: 1024px) 90vw, 360px"
-        className="object-cover"
-        priority={priority}
+    <div className="relative mx-auto w-[300px] md:w-[340px]">
+      {/* Botões laterais */}
+      <span
+        className="absolute left-[-3px] top-[110px] h-8 w-[3px] rounded-l-sm bg-zinc-800"
+        aria-hidden
       />
+      <span
+        className="absolute left-[-3px] top-[160px] h-14 w-[3px] rounded-l-sm bg-zinc-800"
+        aria-hidden
+      />
+      <span
+        className="absolute left-[-3px] top-[225px] h-14 w-[3px] rounded-l-sm bg-zinc-800"
+        aria-hidden
+      />
+      <span
+        className="absolute right-[-3px] top-[150px] h-20 w-[3px] rounded-r-sm bg-zinc-800"
+        aria-hidden
+      />
+
+      {/* Frame externo (corpo do iPhone) */}
+      <div className="relative aspect-[402/850] w-full rounded-[54px] bg-gradient-to-b from-zinc-900 via-zinc-950 to-black p-[10px] shadow-[0_24px_60px_-20px_rgba(0,0,0,0.8),0_0_0_2px_rgba(255,255,255,0.06)_inset]">
+        {/* Tela */}
+        <div className="relative h-full w-full overflow-hidden rounded-[44px] bg-bg-0">
+          <Image
+            src={image}
+            alt={title}
+            fill
+            sizes="(max-width: 1024px) 90vw, 340px"
+            className="object-cover"
+            priority={priority}
+          />
+
+          {/* Dynamic Island */}
+          <div
+            className="pointer-events-none absolute left-1/2 top-[10px] z-10 h-[26px] w-[96px] -translate-x-1/2 rounded-full bg-black"
+            aria-hidden
+          />
+        </div>
+      </div>
     </div>
   );
 }
