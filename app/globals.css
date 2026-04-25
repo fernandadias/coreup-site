@@ -9,8 +9,8 @@
   --text-0: #fafafa;
   --text-1: #a1a1aa;
   --text-2: #52525b;
-  --accent: #d4ff3a;
-  --accent-glow: rgba(212, 255, 58, 0.28);
+  --accent: #bdee63;
+  --accent-glow: rgba(189, 238, 99, 0.28);
   --border: rgba(255, 255, 255, 0.08);
 }
 
@@ -76,7 +76,7 @@
   }
   .card-hover:hover {
     transform: scale(1.03);
-    border-color: rgba(212, 255, 58, 0.35);
+    border-color: rgba(189, 238, 99, 0.35);
     box-shadow: 0 0 24px 0 var(--accent-glow);
   }
 }

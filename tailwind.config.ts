@@ -16,8 +16,8 @@ const config: Config = {
           2: "#52525B",
         },
         accent: {
-          DEFAULT: "#D4FF3A",
-          glow: "rgba(212, 255, 58, 0.28)",
+          DEFAULT: "#BDEE63",
+          glow: "rgba(189, 238, 99, 0.28)",
         },
         line: "rgba(255, 255, 255, 0.08)",
       },

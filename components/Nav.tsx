@@ -8,7 +8,7 @@ export function Nav() {
       <div className="container-x flex h-16 items-center justify-between">
         <Link href="/" aria-label="CoreUP Team · página inicial" className="flex items-center">
           <Image
-            src="/assets/coreupteam-horizontal-branco-cor.png"
+            src="/assets/coreupteam-horizontal-branco-cor.svg"
             alt="CoreUP Team"
             width={160}
             height={32}

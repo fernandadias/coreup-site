@@ -22,11 +22,11 @@ export function Footer() {
         <div className="flex flex-col items-start gap-10 md:flex-row md:items-center md:justify-between">
           <div className="flex flex-col gap-4">
             <Image
-              src="/assets/coreupteam-horizontal-branco-cor.png"
+              src="/assets/coreupteam-horizontal-branco-cor.svg"
               alt="CoreUP Team"
               width={200}
               height={40}
-              className="h-7 w-auto md:h-9"
+              className="h-[25px] w-auto md:h-[32px]"
             />
             <p className="max-w-xs text-sm text-fg-1">
               Consultoria online de musculação e estilo de vida para quem vive sentado.

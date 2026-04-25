@@ -123,7 +123,7 @@ export function buildLessonEmail(
   <div style="display:none;overflow:hidden;line-height:1;opacity:0;max-height:0;max-width:0;">${escapeHtml(lesson.preheader)}</div>
   <div style="max-width:560px;margin:0 auto;padding:32px 16px;">
     <div style="background:#fff;border-radius:16px;overflow:hidden;border:1px solid #e5e7eb;">
-      <div style="background:#09090B;color:#D4FF3A;padding:22px 28px;font-size:13px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;">
+      <div style="background:#09090B;color:#BDEE63;padding:22px 28px;font-size:13px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;">
         Aula ${lesson.day} de 5 · CoreUP Team
       </div>
       <div style="padding:28px;">
@@ -133,7 +133,7 @@ export function buildLessonEmail(
         <ul style="margin:0 0 24px;padding-left:20px;">${bulletsHtml}</ul>
         <!-- TODO: substituir # pelo link do vídeo da aula ${lesson.day} -->
         <p style="margin:0;">
-          <a href="#" style="display:inline-block;background:#D4FF3A;color:#09090B;padding:12px 20px;border-radius:999px;text-decoration:none;font-size:14px;font-weight:600;">${escapeHtml(lesson.cta)}</a>
+          <a href="#" style="display:inline-block;background:#BDEE63;color:#09090B;padding:12px 20px;border-radius:999px;text-decoration:none;font-size:14px;font-weight:600;">${escapeHtml(lesson.cta)}</a>
         </p>
         <p style="margin:28px 0 0;color:#374151;font-size:14px;line-height:1.6;">
           Nos vemos ${lesson.day < 5 ? "amanhã" : "em breve"},<br>
