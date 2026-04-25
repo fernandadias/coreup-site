@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import Image from "next/image";
-import { Dumbbell, TrendingUp, type LucideIcon } from "lucide-react";
+import { Dumbbell, Smartphone, TrendingUp, type LucideIcon } from "lucide-react";
 import { Pill } from "./ui/Pill";
 import { cn } from "@/lib/cn";
 
@@ -15,6 +15,13 @@ type Feature = {
 };
 
 const features: Feature[] = [
+  {
+    icon: Smartphone,
+    eyebrow: "App exclusivo CoreUP Team",
+    title: "Um app feito pra quem é brabo!",
+    body: "Treinos, evolução e metas em um só lugar. Sem custo adicional e exclusivo pra quem entra no time.",
+    image: "/assets/app-splash.png",
+  },
   {
     icon: Dumbbell,
     eyebrow: "Treino do dia",

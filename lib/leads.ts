@@ -102,14 +102,14 @@ function buildNotifyHtml(lead: LeadPayload): string {
   const actions = `
     <div style="margin-top:24px;display:flex;gap:8px;flex-wrap:wrap;">
       <a href="mailto:${escapeHtml(lead.email)}" style="background:#111827;color:#fff;padding:10px 16px;border-radius:999px;text-decoration:none;font-size:14px;font-weight:600;">Responder por email</a>
-      ${waLink ? `<a href="${waLink}" style="background:#D4FF3A;color:#09090B;padding:10px 16px;border-radius:999px;text-decoration:none;font-size:14px;font-weight:600;">Abrir WhatsApp</a>` : ""}
+      ${waLink ? `<a href="${waLink}" style="background:#BDEE63;color:#09090B;padding:10px 16px;border-radius:999px;text-decoration:none;font-size:14px;font-weight:600;">Abrir WhatsApp</a>` : ""}
     </div>`;
 
   return `<!doctype html>
 <html><body style="margin:0;background:#f9fafb;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;">
   <div style="max-width:640px;margin:0 auto;padding:32px 16px;">
     <div style="background:#fff;border-radius:16px;overflow:hidden;border:1px solid #e5e7eb;">
-      <div style="background:#09090B;color:#D4FF3A;padding:24px 28px;font-size:14px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;">
+      <div style="background:#09090B;color:#BDEE63;padding:24px 28px;font-size:14px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;">
         🔥 Novo diagnóstico · CoreUP Team
       </div>
       <div style="padding:28px;">
@@ -137,7 +137,7 @@ function buildWelcomeHtml(lead: LeadPayload): string {
 <html><body style="margin:0;background:#f9fafb;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;">
   <div style="max-width:560px;margin:0 auto;padding:32px 16px;">
     <div style="background:#fff;border-radius:16px;overflow:hidden;border:1px solid #e5e7eb;">
-      <div style="background:#09090B;color:#D4FF3A;padding:28px;font-size:20px;font-weight:700;">
+      <div style="background:#09090B;color:#BDEE63;padding:28px;font-size:20px;font-weight:700;">
         CoreUP Team
       </div>
       <div style="padding:28px;">

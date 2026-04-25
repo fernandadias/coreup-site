@@ -108,7 +108,7 @@ export async function notifyFernandaGratuito(
 <html><body style="margin:0;background:#f9fafb;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;">
   <div style="max-width:560px;margin:0 auto;padding:32px 16px;">
     <div style="background:#fff;border-radius:16px;overflow:hidden;border:1px solid #e5e7eb;">
-      <div style="background:#09090B;color:#D4FF3A;padding:22px 28px;font-size:13px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;">
+      <div style="background:#09090B;color:#BDEE63;padding:22px 28px;font-size:13px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;">
         🎁 Nova inscrição · Lead magnet
       </div>
       <div style="padding:28px;">
